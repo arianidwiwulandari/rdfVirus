@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:gn="http://www.geonames.org/ontology#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:virus="http://virus/#"
+    xmlns:dc="http://purl.org/dc/terms/"
+	xmlns:drug="http://www.agfa.com/w3c/2009/drugTherapy#">
+
+
+<virus:profile rdf:about="http://localhost/easyrdf-0.9.0/easyrdf-0.9.0/examples/virusku.rdf">
+    <virus:name>Virus HIV menyebabkan Kanker</virus:name>
+    <virus:primaryTopic rdf:resource="http://virus/HIV/"/>
+</virus:profile>
+
+<virus:description rdf:about="http://virus/HIV/">
+    <virus:title>Virus</virus:title>
+    <virus:isi rdf:parseType="Collection">
+    
+
+
+    <drug:drugTherapy rdf:about="http://www.agfa.com/w3c/2009/drugTherapy#affects">
+    	<drug:dossageOf>Zidovudin 100/Reviral^^xsd:string</drug:dossageOf>
+    	<drug:dossageOf>Lamivudine 150/Hiviral^^xsd:string</drug:dossageOf>
+    	<drug:dossageOf>Stavudine 30/Staviral^^xsd:string</drug:dossageOf>
+    	<drug:dossageOf>Efavirenz 600/Stocrin dll^^xsd:string</drug:dossageOf>
+    	<drug:dossageOf>Nevirapine 200/Neviral^^xsd:string</drug:dossageOf>
+    	<drug:dossageOf>Tenofovir 30^^xsd:string</drug:dossageOf>
+    	<drug:dossageOf>Lopinavir/ritonavir (200/50)^^xsd:string</drug:dossageOf>
+    	<drug:dossageOf>Duviral</drug:dossageOf>
+    	<drug:dossageOf>ZDV+ 3TC+ NVP Ped Triple FDC (60/30/50 mg)</drug:dossageOf>
+    	<drug:dossageOf>d4T+3TC+NVP 6/30/50mg</drug:dossageOf>
+    	<drug:dossageOf>TDF+3TC+EFV300/300/600</drug:dossageOf>
+    </drug:drugTherapy>
+
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1643084/">
+    	<rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1643084/about.rdf"/>
+        <gn:name>Indonesia</gn:name>
+        <gn:locationMap rdf:resource="http://www.geonames.org/1643084/republic-of-indonesia.html"/>
+        <gn:terjangkit rdf:resource="http://virus/HIV"/>
+    </gn:Feature>
+
+
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1642669/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1642669/about.rdf"/>
+            <gn:name>Central Java</gn:name>
+            <gn:alternateName>Java Tengah</gn:alternateName>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1642669/provinsi-jawa-tengah.html"/>
+    </gn:Feature>
+
+
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6380795/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6380795/about.rdf"/>
+            <gn:name>Kabupaten Banjarnegara</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/6380795/kabupaten-banjarnegara.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1650094/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1650094/about.rdf"/>
+            <gn:name>Kabupaten Banyumas</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1650094/kabupaten-banyumas.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1649879/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1649879/about.rdf"/>
+            <gn:name>Kabupaten Batang</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1649879/kabupaten-batang.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1648567/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1648567/about.rdf"/>
+            <gn:name>Kabupaten Blora</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1648567/kabupaten-blora.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1648083/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1648083/about.rdf"/>
+            <gn:name>Kabupaten Boyolali</gn:name>
+    		<gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1648083/kabupaten-boyolali.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1648064/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1648064/about.rdf"/>
+            <gn:name>Kabupaten Brebes</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1648064/kabupaten-brebes.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6384572/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6384572/about.rdf"/>
+            <gn:name>Kabupaten Cilacap</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/6384572/kabupaten-cilacap.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6739766/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6739766/about.rdf"/>
+            <gn:name>Kabupaten Demak</gn:name>
+    		<gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/6739766/kabupaten-demak.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1643768/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1643768/about.rdf"/>
+            <gn:name>Kabupaten Grobogan</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1643768/kabupaten-grobogan.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1642545/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1642545/about.rdf"/>
+            <gn:name>Kabupaten Jepara</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1642545/kabupaten-jepara.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6560140/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6560140/about.rdf"/>
+            <gn:name>Kabupaten Karanganyar</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/6560140/kabupaten-karanganyar.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6376498/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6376498/about.rdf"/>
+            <gn:name>Kabupaten Kebumen</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/6376498/kabupaten-kebumen.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6745680/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6745680/about.rdf"/>
+            <gn:name>Kabupaten Kendal</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/6745680/kabupaten-kendal.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1639899/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1639899/about.rdf"/>
+            <gn:name>Kabupaten Klaten</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1639899/kabupaten-klaten.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1639214/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1639214/about.rdf"/>
+            <gn:name>Kabupaten Kudus</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1639214/kabupaten-kudus.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1636883/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1636883/about.rdf"/>
+            <gn:name>Kabupaten Magelang</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1636883/kabupaten-magelang.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1631990/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1631990/about.rdf"/>
+            <gn:name>Kabupaten Pati</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1631990/kabupaten-pati.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6792336/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6792336/about.rdf"/>
+            <gn:name>Kabupaten Pekalongan</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6792336/kabupaten-pekalongan.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1631647/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1631647/about.rdf"/>
+            <gn:name>Kabupaten Pemalang</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1631647/kabupaten-pemalang.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6390578/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6390578/about.rdf"/>
+            <gn:name>Kabupaten Purbalingga</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/6390578/kabupaten-purbalingga.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1630324/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1630324/about.rdf"/>
+            <gn:name>Kabupaten Purworejo</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1630324/kabupaten-purworejo.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1629746/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1629746/about.rdf"/>
+            <gn:name>Kabupaten Rembang</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1629746/kabupaten-rembang.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6410701/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6410701/about.rdf"/>
+            <gn:name>Kabupaten Semarang</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/6410701/kabupaten-semarang.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6266177/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6266177/about.rdf"/>
+            <gn:name>Kabupaten Sragen</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+             <gn:locationMap rdf:resource="http://www.geonames.org/6266177/kabupaten-sragen.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1626271/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1626271/about.rdf"/>
+            <gn:name>Kabupaten Sukoharjo</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1626271/kabupaten-sukoharjo.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1624493/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1624493/about.rdf"/>
+            <gn:name>Kabupaten Tegal</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1624493/kabupaten-tegal.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1624237/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1624237/about.rdf"/>
+            <gn:name>Kabupaten Temanggung</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1624237/kabupaten-temanggung.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/1621430/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/1621430/about.rdf"/>
+            <gn:name>Kabupaten Wonogiri</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/1621430/kabupaten-wonogiri.html"/>
+    </gn:Feature>
+
+    <gn:Feature rdf:about="http://sws.geonames.org/6405140/">
+            <rdfs:isDefinedBy rdf:resource="http://sws.geonames.org/6405140/about.rdf"/>
+            <gn:name>Kabupaten Wonosobo</gn:name>
+            <gn:parentFeature rdf:resource="http://sws.geonames.org/1642669/"/>
+            <gn:parentCountry rdf:resource="http://sws.geonames.org/1643084/"/>
+            <gn:locationMap rdf:resource="http://www.geonames.org/6405140/kabupaten-wonosobo.html"/>
+    </gn:Feature>
+
+
+
+    <foaf:depicts rdf:about="http://terjangkit/0">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6380795/kabupaten-banjarnegara.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/1">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">63</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1650094/kabupaten-banyumas.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/2">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">59</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1649879/kabupaten-batang.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/3">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1648567/kabupaten-blora.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/4">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1648083/kabupaten-boyolali.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/5">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">89</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1648064/kabupaten-brebes.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/6">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">81</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6384572/kabupaten-cilacap.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/7">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">57</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6739766/kabupaten-demak.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/8">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/643768/kabupaten-grobogan.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/9">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">83</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1642545/kabupaten-jepara.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/10">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">79</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6560140/kabupaten-karanganyar.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/11">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">58</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6376498/kabupaten-kebumen.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/12">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6745680/kabupaten-kendal.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/13">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">74</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1639899/kabupaten-klaten.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/14">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1639214/kabupaten-kudus.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/15">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1636883/kabupaten-magelang.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/16">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1631990/kabupaten-pati.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/17">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6792336/kabupaten-pekalongan.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/18">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">72</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1631647/kabupaten-pemalang.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/19">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6390578/kabupaten-purbalingga.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/20">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1630324/kabupaten-purworejo.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/21">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1629746/kabupaten-rembang.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/22">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6410701/kabupaten-semarang.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/23">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">76</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6266177/kabupaten-sragen.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/24">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">61</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1626271/kabupaten-sukoharjo.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/25">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">102</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1624493/kabupaten-tegal.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/26">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1624237/kabupaten-temanggung.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/27">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/1621430/kabupaten-wonogiri.html"/>
+    </foaf:depicts>
+
+    <foaf:depicts rdf:about="http://terjangkit/28">
+    		<foaf:status>Penderita</foaf:status>
+    		<owl:allValuesFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52</owl:allValuesFrom>
+    		<foaf:member rdf:resource="http://virus/HIV"/>
+    		<gn:locationMap rdf:resource="http://www.geonames.org/6405140/kabupaten-wonosobo.html"/>
+    </foaf:depicts>
+</virus:isi>
+</virus:description>
+
+</rdf:RDF>
